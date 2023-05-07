@@ -8,6 +8,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //VAR DAHA SONRA DEĞİŞTİRİLEBİLİYOR
+        //VAL DAHA SONRA DEĞİŞTİRİLEMİYOR
+
        //Variables && Constants
 
         var x = 5;
@@ -16,15 +19,24 @@ class MainActivity : AppCompatActivity() {
         println(x*y);
 
         var age = 35;
-        println("Age = " + age/7*5);
 
-        age = 36;
-        println("New age = " + age/6);
-        
-        val age1 = 20;
+        val result = age /7*5;
+        println("Result = " + result);
 
-        //VAR DAHA SONRA DEĞİŞTİRİLEBİLİYOR
-        //VAL DAHA SONRA DEĞİŞTİRİLEMİYOR
+        //Defining = tanımlamak
+        var myInteger : Int // !!! benim myInteger değişkenim "int" değerinden başka bir değer alamaz !!!
+
+        //Initialize = ilk değerini atamak
+        myInteger = 10;
+        myInteger = 20;
+
+        var a : Int = 23; // yukarıda yapılanınn aynısı ama daha kısası ikisini de aynı anda yapıyor
+
+        println(a/2); // tam sayı olduğu için 11.5 değil 11 yazdırdı
+
+
+
+
 
 
 
