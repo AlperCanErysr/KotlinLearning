@@ -8,8 +8,25 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        println("Hello Kotlin!!!");
-        println(4*5);
+       //Variables && Constants
+
+        var x = 5;
+        var y = 4;
+
+        println(x*y);
+
+        var age = 35;
+        println("Age = " + age/7*5);
+
+        age = 36;
+        println("New age = " + age/6);
+        
+        val age1 = 20;
+
+        //VAR DAHA SONRA DEĞİŞTİRİLEBİLİYOR
+        //VAL DAHA SONRA DEĞİŞTİRİLEMİYOR
+
+
 
     }
 }
