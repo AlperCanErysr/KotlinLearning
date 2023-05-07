@@ -121,6 +121,34 @@ class MainActivity : AppCompatActivity() {
         println(mixedArray[1]);
 
 
+        //List - ArrayList
+        println("---------- List ----------");
+
+        val myMusicians = arrayListOf<String>("James","Kirk")
+        myMusicians.add("Lars");
+        println(myMusicians[2]);
+        myMusicians.add(0,"Can");
+        println(myMusicians[0]);
+
+        val myArrayList = ArrayList<Int>()
+        myArrayList.add(1);
+        myArrayList.add(200);
+
+        val myMixedArrayList = ArrayList<Any>()
+        myMixedArrayList.add("Alper Can");
+        myMixedArrayList.add(20);
+        myMixedArrayList.add(20.15);
+        myMixedArrayList.add(false);
+
+        println(myMixedArrayList[0]);
+        println(myMixedArrayList[1]);
+        println(myMixedArrayList[2]);
+        println(myMixedArrayList[3]);
+
+
+
+
+
 
 
 
