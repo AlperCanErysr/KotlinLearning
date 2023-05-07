@@ -34,6 +34,20 @@ class MainActivity : AppCompatActivity() {
 
         println(a/2); // tam sayı olduğu için 11.5 değil 11 yazdırdı
 
+        var myLong : Long = 100;
+        println(myLong);
+
+
+        //Double && Float
+
+        val pi = 3.14;
+        println(pi*2);
+
+        val myFloat = 3.14f;
+        println(myFloat*2)
+
+        val myNotes : Double = 3.43;
+        println(myNotes/2);
 
 
 
