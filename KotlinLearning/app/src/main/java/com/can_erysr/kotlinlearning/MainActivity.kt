@@ -13,6 +13,9 @@ class MainActivity : AppCompatActivity() {
 
        //Variables && Constants
 
+        //Integer
+
+        println("---------- Integer ---------")
         var x = 5;
         var y = 4;
 
@@ -40,6 +43,8 @@ class MainActivity : AppCompatActivity() {
 
         //Double && Float
 
+        println("---------- Double && Float ----------")
+
         val pi = 3.14;
         println(pi*2);
 
@@ -48,6 +53,80 @@ class MainActivity : AppCompatActivity() {
 
         val myNotes : Double = 3.43;
         println(myNotes/2);
+
+
+        //String
+        println("---------- String ----------");
+
+        val myString = "alper Can Eryasar";
+
+        val name = "James";
+        val surname = "Hetfield";
+        val fullName = name + " " + surname;
+
+        println(fullName);
+
+        val larsName : String = "Lars";
+
+        println(myString.capitalize()) //ilk harfini büyük yapıyor
+
+
+        println("---------- Boolean ----------");
+
+        var myBoolean : Boolean = true;
+        myBoolean = false;
+
+        var isAlive = true;
+
+        println(3<5);
+        println(5<3);
+
+
+        //Conversion
+        println("---------- Conversion ----------");
+
+        var myNumber = 5;
+        var myLongNumber = myNumber.toLong();
+        println(myLongNumber);
+
+        var input = "10";
+        var inputInteger = input.toInt();
+        println(inputInteger*2);
+
+
+        //Collections
+        //Arrays
+        println("---------- Array ----------");
+
+        val myArray = arrayOf("James","Kirk","Lars","Bob");
+        //index
+        println(myArray[0]);
+        myArray[0] = "James Hetfield";
+        println(myArray[0]);
+
+        myArray.set(1,"Kirk Hammett");
+        println(myArray[1]);
+
+        /*
+        myArray[4] = "Alper Can Eryasar";
+        println(myArray[4])
+        */
+
+        val numberArray = arrayOf(1,2,3,4,5);
+        println(numberArray[3]);
+
+        val myNewArray = doubleArrayOf(1.0,2.0,3.0);
+        val mixedArray = arrayOf("Alper",5);
+        println(mixedArray[0]);
+        println(mixedArray[1]);
+
+
+
+
+
+
+
+
 
 
 
