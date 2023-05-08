@@ -146,7 +146,32 @@ class MainActivity : AppCompatActivity() {
         println(myMixedArrayList[3]);
 
 
+        //Set
+        println("---------- Set ----------");
 
+        val myExampleArray = arrayOf(1,2,3,4);
+
+        println("Element 1 : ${myExampleArray[0]}");
+        println("Element 2 : ${myExampleArray[1]}");
+        println("Element 3 : ${myExampleArray[2]}");
+        println("Element 4 : ${myExampleArray[3]}");
+
+        val mySet = setOf<Int>(1,1,2,2,3,3,4,4);
+
+        println(mySet.size);
+
+        //For Each
+        println("---------- For Each ----------");
+
+        mySet.forEach {
+            println(it)
+        }
+
+        val myStringSet = HashSet<String>();
+        myStringSet.add("Alper Can");
+        myStringSet.add("Alper Can");
+
+        println(myStringSet.size);
 
 
 
