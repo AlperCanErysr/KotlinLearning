@@ -174,6 +174,26 @@ class MainActivity : AppCompatActivity() {
         println(myStringSet.size);
 
 
+        //Map - HashMap
+        println("---------- Map ----------");
+
+        //Key - Value
+
+        val fruitArray = arrayOf("Apple","Banana");
+        val caloriesArray = arrayOf(100,50);
+
+        println("${fruitArray[0]} : ${caloriesArray[0]}");
+
+        val fruitCaloriesArray = hashMapOf<String,Int>();
+        fruitCaloriesArray.put("Apple",100);
+        fruitCaloriesArray.put("Banana",50);
+
+        println(fruitCaloriesArray["Apple"]);
+
+
+
+
+
 
 
 
