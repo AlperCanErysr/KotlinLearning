@@ -190,6 +190,29 @@ class MainActivity : AppCompatActivity() {
 
         println(fruitCaloriesArray["Apple"]);
 
+        //Operator
+        println("---------- Operator ----------");
+
+        var m = 5;
+        println(m);
+        m = m + 1;
+        println(m);
+        m+=1;
+        println(m);
+        m++;
+        println(m)
+
+
+        //If Control
+        println("---------- If Control ----------");
+
+        val myNumberAge = 32;
+
+        if (myNumberAge <30){
+            println("<30");
+        }else if(myNumberAge>30 && myNumberAge<40){
+            println("> 30 && < 40");
+        }
 
 
 
