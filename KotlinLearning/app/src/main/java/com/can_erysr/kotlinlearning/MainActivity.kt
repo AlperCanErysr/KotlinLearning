@@ -263,6 +263,20 @@ class MainActivity : AppCompatActivity() {
         println(dayString);
 
 
+        //Loops
+
+        //For Loop
+        println("---------- For Loop ----------");
+
+        val myArrayOfNumbers = arrayOf(10,20,30,40,50,60,70,80,90,100);
+        val q = myArrayOfNumbers[9] / 5 * 10;
+        println(q);
+
+        for (number in myArrayOfNumbers){
+            val q = number / 5 * 10;
+            println(q)
+        }
+
 
 
 
