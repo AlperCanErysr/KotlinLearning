@@ -206,15 +206,61 @@ class MainActivity : AppCompatActivity() {
         //If Control
         println("---------- If Control ----------");
 
-        val myNumberAge = 32;
+        val myNumberAge = 50;
 
         if (myNumberAge <30){
             println("<30");
-        }else if(myNumberAge>30 && myNumberAge<40){
-            println("> 30 && < 40");
+        }else if(myNumberAge>=30 && myNumberAge<40){
+            println("30-40");
+        }else if (myNumberAge>=40 && myNumberAge<50){
+            println("40-50");
+        }else{
+            println(">=50")
         }
 
 
+        //Switch - When
+        println("---------- Switch - When ----------");
+
+        val day = 5;
+        var dayString = "";
+
+        if (day == 1){
+            dayString = "Monday";
+            println(dayString);
+        }else if (day == 2){
+            dayString = "Tuesday"
+            println(dayString);
+        }else if (day == 3){
+            dayString = "Wednesyad"
+            println(dayString);
+        }else if (day == 4){
+            dayString = "Thursday"
+            println(dayString);
+        }else if (day == 5){
+            dayString = "Friday"
+            println(dayString);
+        }else if (day == 6){
+            dayString = "Saturday"
+            println(dayString);
+        }else if (day == 7){
+            dayString = "Sunday"
+            println(dayString);
+        }
+
+
+        when(day){
+
+            1 -> dayString = "Monday";
+            2 -> dayString = "Tuesday";
+            3 -> dayString = "Wednesday";
+            4 -> dayString = "Thursday";
+            5 -> dayString = "Friday";
+            6 -> dayString = "Saturday";
+            7 -> dayString = "Sunday";
+
+        }
+        println(dayString);
 
 
 
