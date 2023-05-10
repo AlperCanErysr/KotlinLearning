@@ -273,9 +273,29 @@ class MainActivity : AppCompatActivity() {
         println(q);
 
         for (number in myArrayOfNumbers){
-            val q = number / 5 * 10;
-            println(q)
+            val number1 = number / 5 * 10;
+            println(number1)
         }
+
+        for (i in myArrayOfNumbers.indices){
+            val qz = myArrayOfNumbers[i] / 5 * 10;
+            println(qz);
+        }
+
+        for (b in 0..10){
+            println(b)
+        }
+
+        val myStringArrayList = ArrayList<String>();
+        myStringArrayList.add("Alper Can");
+        myStringArrayList.add("Eryasar");
+        myStringArrayList.add("20");
+
+        for (str in myStringArrayList){
+            println(str);
+        }
+
+        myStringArrayList.forEach { println(it) }
 
 
 
