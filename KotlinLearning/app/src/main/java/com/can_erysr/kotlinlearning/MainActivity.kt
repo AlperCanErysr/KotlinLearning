@@ -298,6 +298,16 @@ class MainActivity : AppCompatActivity() {
         myStringArrayList.forEach { println(it) }
 
 
+        //While Loop
+        println("---------- While Loop ----------");
+
+        var h = 0;
+        while (h < 10){
+            println(h);
+            h = h + 1 ;
+        }
+
+
 
 
 
