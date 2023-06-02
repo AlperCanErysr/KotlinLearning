@@ -305,6 +305,7 @@ class MainActivity : AppCompatActivity() {
         while (h < 10){
             println(h);
             h = h + 1 ;
+            println("deneme")
         }
 
 
